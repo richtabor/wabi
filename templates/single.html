@@ -1,0 +1,51 @@
+<!-- wp:template-part {"slug":"header-accent","tagName":"header"} /-->
+
+<!-- wp:group {"tagName":"main","className":"mt-0","layout":{"inherit":true}} -->
+<main class="wp-block-group mt-0">
+        <!-- wp:group {"align":"full","backgroundColor":"accent","className":"mt-0","layout":{"inherit":true}} -->
+        <div class="wp-block-group alignfull mt-0 has-accent-background-color has-background">
+		<!-- wp:spacer {"height":50} -->
+		<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+		<!-- /wp:spacer -->
+
+		<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"bottom":"var(--wp--custom--spacing--small, 1.25rem)"},"blockGap":"0.75rem"}}} -->
+		<div class="wp-block-group alignwide" style="padding-bottom:var(--wp--custom--spacing--small, 1.25rem)">
+			<!-- wp:post-title {"level":1,"textColor":"accent-alt"} /-->
+
+			<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"0.5rem","padding":{"bottom":"var(--wp--custom--spacing--small, 1.25rem)"}}},"layout":{"type":"flex","allowOrientation":false},"fontSize":"small"} -->
+			<div class="wp-block-group alignwide has-small-font-size"
+				style="padding-bottom:var(--wp--custom--spacing--small, 1.25rem)">
+				<!-- wp:post-date {"textColor":"accent-alt"} /-->
+			</div>
+			<!-- /wp:group -->
+		</div>
+		<!-- /wp:group -->
+
+                <!-- wp:group {"align":"full","className":"relative mt-0 is-single-featured","layout":{"inherit":true}} -->
+                <div class="wp-block-group alignfull relative mt-0 is-single-featured">
+			<!-- wp:post-featured-image {"align":"wide"} /-->
+                </div>
+                <!-- /wp:group -->
+        </div>
+        <!-- /wp:group -->
+
+        <!-- wp:group {"style":{"spacing":{"padding":{"top":"var(--wp--custom--spacing--small, 1.25rem)"}}}} -->
+        <div class="wp-block-group" style="padding-top:var(--wp--custom--spacing--small, 1.25rem);">
+                <!-- wp:post-content {"layout":{"inherit":true}} /-->
+        </div>
+        <!-- /wp:group -->
+
+        <!-- wp:group {"layout":{"inherit":true}, "style":{"spacing":{"padding":{"top":"var(--wp--custom--spacing--small, 1.25rem)"}}}} -->
+        <div class="wp-block-group" style="padding-top:var(--wp--custom--spacing--small, 1.25rem);">
+                <!-- wp:group {"layout":{"type":"flex"}} -->
+                <div class="wp-block-group">
+			<!-- wp:post-terms {"term":"category","style":{"typography":{"fontSize":"0.9rem"}},"className":"is-style-buttons"} /-->
+			<!-- wp:post-terms {"term":"post_tag","style":{"typography":{"fontSize":"0.9rem"}},"className":"is-style-buttons"} /-->
+                </div>
+                <!-- /wp:group -->
+        </div>
+        <!-- /wp:group -->
+</main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer-w-posts","tagName":"footer"} /-->

@@ -1,0 +1,177 @@
+{
+        "version": 2,
+        "settings": {
+                "color": {
+			"duotone": [
+				{
+					"colors": [
+						"#000000",
+						"#363A6D"
+					],
+					"slug": "black-and-primary",
+					"name": "Black and primary"
+				},
+				{
+					"colors": [
+						"#000000",
+						"#2C466B"
+					],
+					"slug": "black-and-secondary",
+					"name": "Black and secondary"
+				},
+				{
+					"colors": [
+						"#000000",
+						"#254F59"
+					],
+					"slug": "black-and-tertiary",
+					"name": "Black and Tertiary"
+				},
+				{
+					"colors": [
+						"#000000",
+						"#4f442b"
+					],
+					"slug": "black-and-quarternary",
+					"name": "Black and Quarternary"
+				},
+				{
+					"colors": [
+						"#000000",
+						"#773722"
+					],
+					"slug": "black-and-quinary",
+					"name": "Black and Quinary"
+				},
+				{
+					"colors": [
+						"#000000",
+						"#773f46"
+					],
+					"slug": "black-and-senary",
+					"name": "Black and Senary"
+				},
+				{
+					"colors": [
+						"#000000",
+						"#ffffff"
+					],
+					"slug": "black-and-white",
+					"name": "Black and white"
+				},
+				{
+					"colors": [
+						"#111113",
+						"#1E1F24"
+					],
+					"slug": "background-and-background-alt",
+					"name": "Background and Background Alt"
+				}
+			],
+                        "palette": [
+                                {
+                                        "slug": "primary",
+                                        "color": "#363A6D",
+                                        "name": "Primary"
+                                },
+                                {
+                                        "slug": "secondary",
+                                        "color": "#2C466B",
+                                        "name": "Secondary"
+                                },
+                                {
+                                        "slug": "tertiary",
+                                        "color": "#254F59",
+                                        "name": "Tertiary"
+                                },
+                                {
+                                        "slug": "quarternary",
+                                        "color": "#4f442b",
+                                        "name": "Quarternary"
+                                },
+                                {
+                                        "slug": "quinary",
+                                        "color": "#773722",
+                                        "name": "Quinary"
+                                },
+                                {
+                                        "slug": "senary",
+                                        "color": "#773f46",
+                                        "name": "Senary"
+                                },
+                                {
+                                        "slug": "foreground",
+                                        "color": "#e2e2e9",
+                                        "name": "Foreground"
+                                },
+                                {
+                                        "slug": "foreground-alt",
+                                        "color": "#a0a6b4",
+                                        "name": "Foreground Alt"
+                                },
+                                {
+                                        "slug": "background",
+                                        "color": "#111113",
+                                        "name": "Background"
+                                },
+                                {
+                                        "slug": "background-alt",
+                                        "color": "#1E1F24",
+                                        "name": "Background Alt"
+                                },
+                                {
+                                        "slug": "accent",
+                                        "color": "var(--wp--custom--color--accent)",
+                                        "name": "Accent"
+                                }
+                        ]
+                },
+                "custom": {
+                        "color": {
+                                "hero-text": "#ffffff"
+                        }
+                }
+        },
+        "styles": {
+                "color": {
+                        "text": "var(--wp--preset--color--foreground-alt)"
+                },
+                "elements": {
+                        "h1": {
+                                "color": {
+                                        "text": "var(--wp--preset--color--foreground)"
+                                }
+                        },
+                        "h2": {
+                                "color": {
+                                        "text": "var(--wp--preset--color--foreground)"
+                                }
+                        },
+                        "h3": {
+                                "color": {
+                                        "text": "var(--wp--preset--color--foreground)"
+                                }
+                        },
+                        "h4": {
+                                "color": {
+                                        "text": "var(--wp--preset--color--foreground)"
+                                }
+                        },
+                        "h5": {
+                                "color": {
+                                        "text": "var(--wp--preset--color--foreground)"
+                                }
+                        },
+                        "h6": {
+                                "color": {
+                                        "text": "var(--wp--preset--color--foreground)"
+                                }
+                        },
+                        "link": {
+                                "color": {
+                                        "text": "var(--wp--preset--color--foreground)"
+                                }
+                        }
+                }
+        }
+}

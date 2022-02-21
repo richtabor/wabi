@@ -1,0 +1,51 @@
+.components-panel__row.edit-post-post-author {
+	margin-bottom: 20px;
+}
+
+.components-wabi-accent-color {
+	width: 246px !important;
+	gap: 3px;
+	padding: 2px !important;
+}
+
+.components-wabi-accent-color > div {
+	min-width: calc(14.285% - 3px);
+}
+
+.components-wabi-accent-color .components-toggle-group-control-option {
+	background: var(--wp--custom--color--accent);
+	border-radius: 2px;
+}
+
+.components-wabi-accent-color .components-toggle-group-control-option svg {
+	filter: invert(1) contrast(999) saturate(999);
+	mix-blend-mode: hard-light;
+}
+
+.components-wabi-accent-color .components-toggle-group-control-option:after {
+	border: 1px solid transparent;
+	bottom: -1px;
+	border-radius: 3px;
+	box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2);
+	content: "";
+	left: -1px;
+	position: absolute;
+	right: -1px;
+	top: -1px;
+}
+
+.components-wabi-accent-color-row {
+	flex-direction: column;
+	justify-content: start;
+	margin-bottom: 12px;
+}
+
+.components-wabi-accent-color-row .components-button.is-small {
+	align-self: flex-start;
+	margin-top: 5px;
+}
+
+.components-circular-option-picker__option-wrapper .components-circular-option-picker__option[aria-label="Color: Accent"] {
+	box-shadow: none !important;
+	background-image: conic-gradient(var(--wp--preset--color--primary), var(--wp--preset--color--secondary), var(--wp--preset--color--tertiary), var(--wp--preset--color--quarternary), var(--wp--preset--color--quinary), var(--wp--preset--color--senary)) !important;
+}

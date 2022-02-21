@@ -1,0 +1,32 @@
+name: Deploy
+
+on:
+  # Triggers the workflow only for the main branch
+  push:
+    branches: [ main ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  FTP-Deploy-Action:
+    name: FTP-Deploy-Action
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+
+    - name: Build Project
+      run: |
+        npm install
+        npm run build --if-present
+
+    - name: FTP-Deploy-Action
+      uses: SamKirkland/FTP-Deploy-Action@2.0.0
+      env:
+        FTP_SERVER: ${{ secrets.FTP_SERVER }}
+        FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+        FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        REMOTE_DIR: wp-content/themes/wabi
+        METHOD: sftp
+        PORT: 22
+        ARGS: --delete --exclude-glob=.git*/** --exclude-glob=.git** --exclude-glob=node_modules/** --exclude-glob=*.dist --exclude=composer.json --exclude=package.json --exclude=package-lock.json --exclude=README.md

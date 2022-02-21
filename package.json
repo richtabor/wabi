@@ -1,0 +1,27 @@
+{
+        "name": "wabi",
+        "version": "0.1.0",
+        "description": "",
+        "main": "index.js",
+        "author": "richtabor",
+        "license": "GPL-2.0-or-later",
+        "bugs": {
+                "url": "https://github.com/richtabor/wabi/issues"
+        },
+        "repository": {
+                "type": "git",
+                "url": "git+https://github.com/richtabor/wabi.git"
+        },
+        "homepage": "https://github.com/richtabor/wabi#readme",
+        "devDependencies": {
+                "@wordpress/scripts": "^20.0.2",
+                "@wordpress/stylelint-config": "^19.1.0",
+                "stylelint": "^13.13.1",
+                "@wordpress/icons": "^6.2.0"
+        },
+        "scripts": {
+                "start": "wp-scripts start assets/js/accent-color.js --output-path=assets/js/build",
+                "build": "wp-scripts build",
+                "lint:css": "stylelint **/*.css --fix -i .gitignore"
+        }
+}

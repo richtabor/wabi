@@ -1,0 +1,49 @@
+<!-- wp:spacer {"height":50} -->
+<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:query {"queryId":0,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"tagName":"main","displayLayout":{"type":"list"},"layout":{"inherit":true}} -->
+<main class="wp-block-query">
+	<!-- wp:post-template {"align":"wide"} -->
+	<!-- wp:group {"layout":{"inherit":true}} -->
+	<div class="wp-block-group">
+		<!-- wp:group {"style":{"spacing":{"blockGap":"0.75rem"}} -->
+		<div class="wp-block-group">
+			<!-- wp:post-title {"level":1,"isLink":true,"align":"wide"} /-->
+
+			<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"0.5rem"}},"layout":{"type":"flex","allowOrientation":false},"fontSize":"small"} -->
+			<div class="wp-block-group alignwide has-small-font-size">
+				<!-- wp:post-author {"avatarSize":24,"textColor":"accent-alt"} /-->
+
+				<!-- wp:paragraph {"textColor":"accent-alt"} -->
+				<p class="has-accent-alt-color has-text-color">·</p>
+				<!-- /wp:paragraph -->
+
+				<!-- wp:post-date {"textColor":"accent-alt"} /-->
+			</div>
+			<!-- /wp:group -->
+		</div>
+		<!-- /wp:group -->
+
+		<!-- wp:group -->
+		<div class="wp-block-group">
+			<!-- wp:post-excerpt {"showMoreOnNewLine":false} /-->
+		</div>
+		<!-- /wp:group -->
+
+		<!-- wp:spacer {"height":"110px"} -->
+		<div style="height:110px" aria-hidden="true" class="wp-block-spacer"></div>
+		<!-- /wp:spacer -->
+	</div>
+	<!-- /wp:group -->
+	<!-- /wp:post-template -->
+
+	<!-- wp:query-pagination {"paginationArrow":"arrow","align":"wide","className":"is-style-buttons","layout":{"type":"flex","justifyContent":"space-between"}} -->
+	<!-- wp:query-pagination-previous {"label":"Previous","fontSize":"small"} /-->
+
+	<!-- wp:query-pagination-numbers /-->
+
+	<!-- wp:query-pagination-next {"label":"Next","fontSize":"small"} /-->
+	<!-- /wp:query-pagination -->
+</main>
+<!-- /wp:query -->
