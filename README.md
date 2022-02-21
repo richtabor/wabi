@@ -2,17 +2,30 @@
 
 [![Deploy](https://github.com/richtabor/wabi/actions/workflows/deploy.yml/badge.svg)](https://github.com/richtabor/wabi/actions/workflows/deploy.yml)
 
-Share your authentic self with Wabi, a WordPress block theme designed to help you tell your story best. Wabi foregrounds the simplistic design language of storytelling through clean lines, beautiful typography and a dynamic accent color system. And with multiple style variants (light, dark, and dynamic color schemes), Wabi is the most expressive and adaptable writing theme yet.
+Share your authentic self with [Wabi](https://richtabor.com/wabi), a WordPress block theme designed to help you tell your story best. Wabi foregrounds the simplistic design language of storytelling through clean lines, beautiful typography and a dynamic accent color system. And with multiple style variants (light, dark, and dynamic color schemes), Wabi is the most expressive and adaptable writing theme yet.
 
-[Read more about Wabi →](https://richtabor.com/wabi)
+[Learn more and view the live demo on richtabor.com →](https://richtabor.com/wabi)
+
+![Wabi WordPress Block Theme](https://user-images.githubusercontent.com/1813435/155023023-a1c04695-9c77-4a2b-a74c-5e79c6183728.jpg)
 
 
-## Getting Started
+## Dynamic accent colors 
+With Wabi, you may pick an accent color for each post and “theme” that content, providing a clever design layer to compliment the theme’s minimal style. Each post can have one of six different accent colors, all of which you may tailor within the new Global Styles interface. 
+
+![Accent color picker in the Wabi block theme](https://user-images.githubusercontent.com/1813435/155022647-67c46cf0-8fec-4ede-991f-5b685a29959b.jpg)
+
+## Style variants
+
+With multiple style variants (light, dark, and two dynamic color schemes — aoi and pinku) at your fingertips, Method is the most expressive and adaptable writing theme yet. To apply one of these styles, head into the new Site Editor experience, then select the Styles icon at the top right of the toolbar. You’ll see the new Styles sidebar, which you’ll be able to change your theme’s style from. 
+
+![Style variants in the Wabi block theme](https://user-images.githubusercontent.com/1813435/155022541-bef46ac7-cb00-4188-b025-b32032cfd885.jpg)
+
+# Development Guide
 
 To get started with development:
 
 1. Set up a WordPress instance, we recommend [wp-env](https://developer.wordpress.org/block-editor/handbook/tutorials/devenv/) or [Local](https://localwp.com/) as an alternative to docker.
-2. Clone / download this repository into your `/wp-content/themes/` directory
+2. Clone, or download, this repository into your `/wp-content/themes/` directory
 
 ## Requirements
 
