@@ -200,7 +200,7 @@ add_action( 'wp_head', 'wabi_preload_webfonts' );
 if ( ! function_exists( 'wabi_accent_colors' ) ) :
 
 	/**
-	 * Get font face styles.
+	 * Set accent color variables.
 	 * Called by functions wabi_styles() and wabi_inline_editor_styles() above.
 	 *
 	 * @since Wabi 1.0
@@ -253,8 +253,8 @@ endif;
 if ( ! function_exists( 'wabi_editor_styles' ) ) :
 
 	/**
-	 * Get font face styles.
-	 * Called by functions wabi_styles() and wabi_inline_editor_styles() above.
+	 * Get editor styles.
+	 * Called by function wabi_inline_editor_styles() above.
 	 *
 	 * @since Wabi 1.0
 	 *
