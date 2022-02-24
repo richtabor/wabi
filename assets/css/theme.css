@@ -86,7 +86,7 @@ footer .wp-block-query .wp-block-post-title a:focus {
 .wp-block-post-content span + h2:not([style*="margin-top"]),
 .wp-block-post-content span + h3:not([style*="margin-top"]),
 .wp-block-post-content span + h4:not([style*="margin-top"]) {
-        margin-top: calc( 1.5 * var(--wp--custom--spacing--medium, 6rem) ) !important;
+        margin-top: var(--wp--custom--spacing--medium, 6rem) !important;
 }
 
 /*

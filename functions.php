@@ -133,7 +133,7 @@ if ( ! function_exists( 'wabi_get_font_face_styles' ) ) :
 
 	/**
 	 * Get font face styles.
-	 * Called by functions wabi_styles() and wabi_editor_styles() above.
+	 * Called by functions wabi_styles() and wabi_inline_editor_styles() above.
 	 *
 	 * @since Wabi 1.0
 	 *
@@ -291,11 +291,11 @@ if ( ! function_exists( 'wabi_editor_styles' ) ) :
 			color: var(--wp--custom--color--hero-text);
 		}
 
-		.editor-styles-wrapper .block-editor-block-list__layout.is-root-container > p + h1
+		.editor-styles-wrapper .block-editor-block-list__layout.is-root-container > p + h1,
 		.editor-styles-wrapper .block-editor-block-list__layout.is-root-container > p + h2,
 		.editor-styles-wrapper .block-editor-block-list__layout.is-root-container > p + h3,
 		.editor-styles-wrapper .block-editor-block-list__layout.is-root-container > p + h4 {
-			margin-top: calc( 2 * var(--wp--custom--spacing--medium, 6rem) ) !important;
+			margin-top: var(--wp--custom--spacing--medium, 6rem) !important;
 		}
 
 		.is-primary-accent .editor-styles-wrapper {
