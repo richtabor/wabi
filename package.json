@@ -11,7 +11,7 @@
                 "type": "git",
                 "url": "git+https://github.com/richtabor/wabi.git"
         },
-        "homepage": "https://github.com/richtabor/wabi#readme",
+        "homepage": "https://richtabor/wabi",
         "devDependencies": {
                 "@wordpress/scripts": "^20.0.2",
                 "@wordpress/stylelint-config": "^19.1.0",
