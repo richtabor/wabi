@@ -295,9 +295,19 @@ body > .is-root-container > .wp-block-template-part > .wp-block-cover,
  * Add additional margin to the image block, so that
  * it displays with the same spacing as paragraphs do.
  */
+
 .wp-block-post-content p + .wp-block-image {
         margin-top: calc(var(--wp--style--block-gap) * 1.5) !important;
 	margin-bottom: calc(var(--wp--style--block-gap) * 1.5) !important;
+}
+
+/*
+ * Image block, when alignfull within post content.
+ */
+
+.wp-block-post-content p + .wp-block-image.alignfull {
+	margin-top: calc( 1.25 * var(--wp--custom--spacing--medium, 8rem)) !important;
+	margin-bottom: calc( 1.25 * var(--wp--custom--spacing--medium, 8rem)) !important;
 }
 
 /*
@@ -631,4 +641,5 @@ footer {
 	.hide-on-mobile {
 		display: none !important;
 	}
+}
 }
