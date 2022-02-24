@@ -189,7 +189,7 @@ if ( ! function_exists( 'wabi_preload_webfonts' ) ) :
 	 */
 	function wabi_preload_webfonts() {
 		?>
-		<link rel="preload" href="<?php echo esc_url( get_theme_file_uri( 'assets/fonts/Inter-Roman.var.woff2' ) ); ?>" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="<?php echo esc_url( get_theme_file_uri( 'assets/fonts/inter-roman.woff2' ) ); ?>" as="font" type="font/woff2" crossorigin>
 		<?php
 	}
 
