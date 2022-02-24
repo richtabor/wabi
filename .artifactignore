@@ -1,0 +1,13 @@
+.github
+.gitignore
+.nvmrc
+.stylelint.json
+composer.json
+composer.lock
+.editorconfig
+package-lock.json
+package.json
+phpcs.xml.dist
+phpstan.neon.dist
+README.md
+bin/
