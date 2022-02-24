@@ -1,8 +1,7 @@
 {
         "name": "wabi",
-        "version": "0.1.0",
+        "version": "1.0.1",
         "description": "",
-        "main": "index.js",
         "author": "richtabor",
         "license": "GPL-2.0-or-later",
         "bugs": {
