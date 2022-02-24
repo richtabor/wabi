@@ -154,7 +154,7 @@
 			"img-radius": "10px",
 			"spacing": {
 				"small": "min(1.5rem, 2vw)",
-				"medium": "calc(2 * var(--wp--custom--spacing--small))",
+				"medium": "calc(2.5 * var(--wp--custom--spacing--small))",
 				"large": "min(3rem, 4vw)",
 				"outer": "max(1.5rem, 3vw)"
 			},
