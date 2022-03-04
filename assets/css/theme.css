@@ -482,6 +482,7 @@ body > .is-root-container > .wp-block-template-part > .wp-block-cover,
 .is-style-buttons.wp-block-post-terms {
 	display: flex;
 	gap: 0.3rem;
+	flex-wrap: wrap;
 }
 .is-style-buttons.wp-block-post-terms > a {
 	display: inline-block;
