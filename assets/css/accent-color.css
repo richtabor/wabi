@@ -8,21 +8,25 @@
 	padding: 2px !important;
 }
 
+.components-wabi-accent-color [role="presentation"] {
+	display: none;
+}
+
 .components-wabi-accent-color > div {
 	min-width: calc(14.285% - 3px);
 }
 
-.components-wabi-accent-color .components-toggle-group-control-option {
+.components-wabi-accent-color .components-toggle-group-control-option-base {
 	background: var(--wp--custom--color--accent);
 	border-radius: 2px;
 }
 
-.components-wabi-accent-color .components-toggle-group-control-option svg {
+.components-wabi-accent-color .components-toggle-group-control-option-base svg {
 	filter: invert(1) contrast(999) saturate(999);
 	mix-blend-mode: hard-light;
 }
 
-.components-wabi-accent-color .components-toggle-group-control-option:after {
+.components-wabi-accent-color .components-toggle-group-control-option-base:after {
 	border: 1px solid transparent;
 	bottom: -1px;
 	border-radius: 3px;
