@@ -548,6 +548,10 @@ body > .is-root-container > .wp-block-template-part > .wp-block-cover,
         color: var(--wp--custom--color--hero-text, #000000);
 }
 
+.single-post .wp-block-navigation:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open {
+	color: var(--wp--custom--color--hero-text, #000000);
+}
+
 /*
  * Footer.
  */
