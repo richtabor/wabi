@@ -5,7 +5,6 @@
 return array(
 	'title'      => __( 'Header with button', 'wabi' ),
 	'categories' => array( 'wabi', 'header' ),
-	'blockTypes' => array( 'core/template-part/header' ),
 	'content'    => '
 		<!-- wp:group {"align":"full","layout":{"inherit":true}} -->
 		<div class="wp-block-group alignfull"><!-- wp:group {"align":"full","style":{"spacing":{"padding":{"bottom":"var(--wp--custom--spacing--small, 1.25rem)","top":"var(--wp--custom--spacing--small, 1.25rem)"}}},"layout":{"type":"flex","justifyContent":"space-between"}} -->
@@ -24,7 +23,7 @@ return array(
 		<!-- wp:group {"layout":{"type":"flex","allowOrientation":false}} -->
 		<div class="wp-block-group">
 
-		<!-- wp:navigation {"overlayTextColor":"foreground","overlayBackgroundColor":"background","layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"right"},"style":{"spacing":{"blockGap":"1.5rem"}}} -->
+		<!-- wp:navigation {"overlayTextColor":"foreground","overlayBackgroundColor":"background","layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"right"}},"style":{"spacing":{"blockGap":"1.5rem"}}} -->
 		<!-- wp:page-list {"isNavigationChild":true,"showSubmenuIcon":true,"openSubmenusOnClick":false} /-->
 		<!-- /wp:navigation -->
 

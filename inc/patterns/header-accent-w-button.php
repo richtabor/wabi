@@ -5,7 +5,6 @@
 return array(
 	'title'      => __( 'Header, accent color with button', 'wabi' ),
 	'categories' => array( 'wabi', 'header' ),
-	'blockTypes' => array( 'core/template-part/header' ),
 	'content'    => '
 		<!-- wp:group {"align":"full", "backgroundColor":"accent","layout":{"inherit":true}} -->
 		<div class="wp-block-group alignfull has-accent-background-color has-background"><!-- wp:group {"align":"full","style":{"spacing":{"padding":{"bottom":"var(--wp--custom--spacing--small, 1.25rem)","top":"var(--wp--custom--spacing--small, 1.25rem)"}}},"layout":{"type":"flex","justifyContent":"space-between"}} -->
