@@ -24,7 +24,7 @@ return array(
 		<!-- wp:group {"layout":{"type":"flex","allowOrientation":false}} -->
 		<div class="wp-block-group">
 
-		<!-- wp:navigation {"overlayTextColor":"foreground","overlayBackgroundColor":"background","layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"right"}},"style":{"spacing":{"blockGap":"1.5rem"}}} -->
+		<!-- wp:navigation {"overlayTextColor":"foreground","overlayBackgroundColor":"background","layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"right"},"style":{"spacing":{"blockGap":"1.5rem"}}} -->
 		<!-- wp:page-list {"isNavigationChild":true,"showSubmenuIcon":true,"openSubmenusOnClick":false} /-->
 		<!-- /wp:navigation -->
 
