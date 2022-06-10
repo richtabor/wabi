@@ -204,7 +204,8 @@
 				},
 				{
 					"size": "clamp(1.75rem, 3vw, 2.25rem)",
-					"slug": "x-large"
+					"slug": "x-large",
+					"name": "1X Large"
 				},
                                 {
                                         "size": "clamp(2.25rem, 8.5vw, 5rem)",
