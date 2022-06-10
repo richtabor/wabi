@@ -16,7 +16,10 @@ And with multiple style variants (light, dark, and dynamic color schemes), Wabi 
 == Changelog ==
 
 = 1.0.4 =
+* Add titles to style variations
+* Add pattern markup directly to header template parts
 * Fix accent color selector, WP 6.0
+* Fix menu color on single post mobile
 
 = 1.0.3 =
 * Fix wide/full alignment on single
