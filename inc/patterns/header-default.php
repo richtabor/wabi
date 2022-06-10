@@ -29,7 +29,7 @@ return array(
 		<!-- wp:page-list {"isNavigationChild":true,"showSubmenuIcon":true,"openSubmenusOnClick":false} /-->
 		<!-- /wp:navigation -->
 
-		<!-- wp:search {"label":"","showLabel":false,"placeholder":"' . esc_html__( 'Search...', 'wabi' ) . '","width":150,"widthUnit":"px","buttonText":"Search","buttonPosition":"no-button","style":{"border":{"width":"0rem","style":"none","radius":"12px"}},"className":"hide-on-mobile"} /--></div>
+		<!-- wp:search {"label":"","showLabel":false,"placeholder":"' . esc_html__( 'Search…', 'wabi' ) . '","width":150,"widthUnit":"px","buttonText":"Search","buttonPosition":"no-button","style":{"border":{"width":"0rem","style":"none","radius":"12px"}},"className":"hide-on-mobile"} /--></div>
 		<!-- /wp:group --></div>
 		<!-- /wp:group -->
 		</div>

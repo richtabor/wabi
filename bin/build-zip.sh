@@ -62,7 +62,7 @@ if [ -z "$NO_CHECKS" ]; then
 		if [ "$answer" != "${answer#[Yy]}" ]; then
 			# Remove ignored files to reset repository to pristine condition. Previous
 			# test ensures that changed files abort the plugin build.
-			status "Cleaning working directory... 🛀"
+			status "Cleaning working directory… 🛀"
 			git clean -xdf --exclude="local.json"
 		else
 			error "Fair enough; aborting. Tidy up your repo and try again. 🙂"
@@ -71,18 +71,18 @@ if [ -z "$NO_CHECKS" ]; then
 	fi
 fi
 
-status "Installing dependencies..."
+status "Installing dependencies…"
 
 PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true npm install
 
-status "Generating build..."
+status "Generating build…"
 
 npm run build
 
 mkdir -p build
 
 # Build the theme zip
-status "Creating theme zip... 🤐"
+status "Creating theme zip… 🤐"
 toplevelFiles=$(ls *.{txt,php,png,css})
 themeJson=$(ls theme.json)
 incFiles=$(ls inc/*.php)
