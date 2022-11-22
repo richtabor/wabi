@@ -178,6 +178,10 @@
 				}
 			}
 		},
+		"layout": {
+			"contentSize": "40rem",
+			"wideSize": "52rem"
+		},
 		"spacing": {
 			"spacingScale": {
 				"steps": 7
@@ -254,10 +258,7 @@
                                 }
 			]
 		},
-		"layout": {
-			"contentSize": "40rem",
-			"wideSize": "52rem"
-		}
+		"useRootPaddingAwareAlignments": true
 	},
 	"styles": {
 		"blocks": {

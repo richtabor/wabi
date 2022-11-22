@@ -1,35 +1,30 @@
-<!-- wp:group {"align":"full", "backgroundColor":"accent","layout":{"inherit":true}} -->
-<div class="wp-block-group alignfull has-accent-background-color has-background">
-	<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"bottom":"var(--wp--custom--spacing--small, 1.25rem)","top":"var(--wp--custom--spacing--small, 1.25rem)"}}},"layout":{"type":"flex","justifyContent":"space-between"}} -->
-	<div class="wp-block-group alignfull"
-		style="padding-top:var(--wp--custom--spacing--small, 1.25rem);padding-bottom:var(--wp--custom--spacing--small, 1.25rem)">
-		<!-- wp:group {"layout":{"type":"flex"}} -->
-		<div class="wp-block-group">
-			<!-- wp:site-logo {"width":48,"className":"is-style-rounded"} /-->
-			<!-- wp:site-title {"textColor":"accent-alt"} /-->
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|20","right":"var:preset|spacing|30","bottom":"var:preset|spacing|20","left":"var:preset|spacing|30"}}},"backgroundColor":"accent","layout":{"type":"flex","justifyContent":"space-between"}} -->
+<div class="wp-block-group alignfull has-accent-background-color has-background" style="padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--30)">
+	<!-- wp:group {"layout":{"type":"flex"}} -->
+	<div class="wp-block-group">
+		<!-- wp:site-logo {"width":48,"className":"is-style-rounded"} /-->
 
-			<!-- wp:social-links {"iconColor":"accent-alt","iconColorValue":"var(--wp--custom--color--hero-text)","size":"has-small-icon-size","className":"is-style-logos-only","layout":{"type":"flex","flexWrap":"nowrap"},"style":{"spacing":{"blockGap":"0.75rem"}}} -->
-			<ul class="wp-block-social-links has-small-icon-size has-icon-color is-style-logos-only">
-				<!-- wp:social-link {"url":"#","service":"twitter"} /-->
+		<!-- wp:site-title {"textColor":"accent-alt"} /-->
 
-				<!-- wp:social-link {"url":"#","service":"wordpress"} /-->
+		<!-- wp:social-links {"iconColor":"accent-alt","iconColorValue":"var(\u002d\u002dwp\u002d\u002dcustom\u002d\u002dcolor\u002d\u002dhero-text)","size":"has-small-icon-size","style":{"spacing":{"blockGap":"0.75rem"}},"className":"is-style-logos-only","layout":{"type":"flex","flexWrap":"nowrap"}} -->
+		<ul class="wp-block-social-links has-small-icon-size has-icon-color is-style-logos-only">
+			<!-- wp:social-link {"url":"#","service":"twitter"} /-->
 
-				<!-- wp:social-link {"url":"#","service":"github"} /-->
-			</ul>
-			<!-- /wp:social-links -->
-		</div>
-		<!-- /wp:group -->
+			<!-- wp:social-link {"url":"#","service":"wordpress"} /-->
 
-		<!-- wp:group {"layout":{"type":"flex","allowOrientation":false}} -->
-		<div class="wp-block-group">
+			<!-- wp:social-link {"url":"#","service":"github"} /-->
+		</ul>
+		<!-- /wp:social-links -->
+	</div>
+	<!-- /wp:group -->
 
-			<!-- wp:navigation {"textColor":"accent-alt","overlayBackgroundColor":"accent","layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"right"},"style":{"spacing":{"blockGap":"1.5rem"}}} -->
-			<!-- wp:page-list {"isNavigationChild":true,"showSubmenuIcon":true,"openSubmenusOnClick":false} /-->
-			<!-- /wp:navigation -->
+	<!-- wp:group {"layout":{"type":"flex","allowOrientation":false}} -->
+	<div class="wp-block-group">
+		<!-- wp:navigation {"textColor":"accent-alt","overlayBackgroundColor":"accent","layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"right"},"style":{"spacing":{"blockGap":"1.5rem"}}} -->
+		<!-- wp:page-list /-->
+		<!-- /wp:navigation -->
 
-			<!-- wp:search {"label":"","showLabel":false,"placeholder":"Search…","width":150,"widthUnit":"px","buttonText":"Search","buttonPosition":"no-button","style":{"border":{"width":"0rem","style":"none","radius":"12px"}},"className":"hide-on-mobile"} /-->
-		</div>
-		<!-- /wp:group -->
+		<!-- wp:search {"label":"","showLabel":false,"placeholder":"Search…","width":150,"widthUnit":"px","buttonText":"Search","buttonPosition":"no-button","style":{"border":{"width":"0rem","style":"none","radius":"12px"}},"className":"hide-on-mobile"} /-->
 	</div>
 	<!-- /wp:group -->
 </div>
