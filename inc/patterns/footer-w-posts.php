@@ -7,7 +7,6 @@ return array(
 	'categories' => array( 'wabi', 'footer' ),
 	'blockTypes' => array( 'core/template-part/footer' ),
 	'content'    => '
-
 		<!-- wp:group {"align":"full"} -->
 		<div class="wp-block-group alignfull"><!-- wp:query {"queryId":67,"query":{"perPage":3,"pages":"1","offset":"1","postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"displayLayout":{"type":"flex","columns":3},"layout":{"inherit":false,"contentSize":"80rem"}} -->
 		<div class="wp-block-query"><!-- wp:post-template -->
