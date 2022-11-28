@@ -23,12 +23,7 @@ if ( ! function_exists( 'wabi_support' ) ) :
 		add_theme_support( 'wp-block-styles' );
 
 		// Enqueue editor styles.
-		add_editor_style(
-			array(
-				'style.css',
-				'/assets/css/theme.css',
-			)
-		);
+		add_editor_style( array( 'style.css' ) );
 
 	}
 
@@ -62,7 +57,6 @@ if ( ! function_exists( 'wabi_styles' ) ) :
 
 		// Add inline styles.
 		wp_add_inline_style( 'wabi-style', wabi_accent_colors() );
-		wp_add_inline_style( 'wabi-style', wabi_get_font_face_styles() );
 
 	}
 
@@ -110,80 +104,11 @@ if ( ! function_exists( 'wabi_inline_editor_styles' ) ) :
 		// Add editor styles inline.
 		wp_add_inline_style( 'wp-block-library', wabi_editor_styles() );
 		wp_add_inline_style( 'wp-block-library', wabi_accent_colors() );
-		wp_add_inline_style( 'wp-block-library', wabi_get_font_face_styles() );
 	}
 
 endif;
 
 add_action( 'admin_init', 'wabi_inline_editor_styles' );
-
-if ( ! function_exists( 'wabi_get_font_face_styles' ) ) :
-
-	/**
-	 * Get font face styles.
-	 * Called by functions wabi_styles() and wabi_inline_editor_styles() above.
-	 *
-	 * @since Wabi 1.0
-	 *
-	 * @return string
-	 */
-	function wabi_get_font_face_styles() {
-
-		return "
-		@font-face{
-			font-family: 'Inter';
-			src: url('" . get_theme_file_uri( 'assets/fonts/inter-roman.woff2' ) . "') format('woff2');
-			font-style: 400;
-			font-weight: normal;
-			font-display: swap;
-
-		}
-
-		@font-face{
-			font-family: 'Inter';
-			src: url('" . get_theme_file_uri( 'assets/fonts/inter-semibold.woff2' ) . "') format('woff2');
-			font-style: normal;
-			font-weight: 600;
-			font-display: swap;
-		}
-
-		@font-face{
-			font-family: 'Inter';
-			src: url('" . get_theme_file_uri( 'assets/fonts/inter-italic.woff2' ) . "') format('woff2');
-			font-style: italic;
-			font-weight: normal;
-			font-display: swap;
-
-		}
-		";
-
-	}
-
-endif;
-
-if ( ! function_exists( 'wabi_preload_webfonts' ) ) :
-
-	/**
-	 * Preloads the main web font to improve performance.
-	 *
-	 * Only the main web font (font-style: normal) is preloaded here since that font is always relevant (it is used
-	 * on every heading, for example). The other font is only needed if there is any applicable content in italic style,
-	 * and therefore preloading it would in most cases regress performance when that font would otherwise not be loaded
-	 * at all.
-	 *
-	 * @since Wabi 1.0
-	 *
-	 * @return void
-	 */
-	function wabi_preload_webfonts() {
-		?>
-		<link rel="preload" href="<?php echo esc_url( get_theme_file_uri( 'assets/fonts/inter-roman.woff2' ) ); ?>" as="font" type="font/woff2" crossorigin>
-		<?php
-	}
-
-endif;
-
-add_action( 'wp_head', 'wabi_preload_webfonts' );
 
 if ( ! function_exists( 'wabi_accent_colors' ) ) :
 
