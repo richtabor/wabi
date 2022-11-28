@@ -327,6 +327,19 @@
 				}
 			},
 			"core/site-title": {
+				"color": {
+					"text": "var(--wp--preset--color--foreground)"
+				},
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var(--wp--preset--color--foreground)"
+						},
+						"typography": {
+							"textDecoration": "none"
+						}
+					}
+				},
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--body)",
 					"lineHeight": "var(--wp--custom--typography--line-height--normal)",
@@ -454,7 +467,12 @@
 			"link": {
                                 "color": {
                                         "text": "var(--wp--preset--color--foreground)"
-                                }
+                                },
+				":hover": {
+					"color": {
+						"text": "var(--wp--preset--color--foreground)"
+					}
+				}
 			}
 		},
 		"spacing": {
