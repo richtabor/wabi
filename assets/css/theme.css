@@ -180,10 +180,10 @@ header .has-accent-background-color .wp-block-search__input:-ms-input-placeholde
  */
 
 .wp-block-navigation__responsive-container.is-menu-open {
-	padding-top: var(--wp--custom--spacing--outer);
-	padding-bottom: var(--wp--custom--spacing--large, 8rem);
-	padding-right: var(--wp--custom--spacing--outer);
-	padding-left: var(--wp--custom--spacing--outer);
+	padding-top: var(--wp--style--root--padding-right);
+	padding-bottom: var(--wp--style--root--padding-right);
+	padding-right: var(--wp--style--root--padding-right);
+	padding-left: var(--wp--style--root--padding-right);
 }
 
 /*
@@ -212,37 +212,12 @@ header .has-accent-background-color .wp-block-search__input:-ms-input-placeholde
  * different than other block themes.
  */
 
-.wp-block-post-featured-image {
-	border-radius: var(--wp--custom--img-radius, 10px);
+.blog .wp-block-post-featured-image {
         background-color: var(--wp--custom--color--accent);
-}
-
-.wp-block-post-featured-image img {
-	border-radius: var(--wp--custom--img-radius, 10px);
-        position: relative;
-        z-index: 1;
 }
 
 .wp-block-post-featured-image a:hover img {
         opacity: 0.75;
-}
-
-/*
- * Creates the effect where the accent color is halfway
- * behind the featured image.
- */
-
-.is-single-featured .wp-block-post-featured-image::before {
-        background: var(--wp--preset--color--background);
-        bottom: 0;
-        clip-path: var(--wp--custom--featured-image-clip);
-        content: "";
-        height: 50%;
-        left: 0;
-        position: absolute;
-        right: 0;
-        width: 100%;
-        z-index: 0;
 }
 
 /*
