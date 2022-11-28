@@ -83,7 +83,6 @@ footer .wp-block-query .wp-block-post-title a:focus {
  * Slight tweaks to the code blocks.
  */
 .wp-block-code {
-	border-width: 0;
 	overflow: hidden;
 	overflow-x: auto;
 	white-space: pre;
@@ -283,18 +282,18 @@ header .has-accent-background-color .wp-block-search__input:-ms-input-placeholde
 .is-style-center,
 .is-style-bottom-left,
 .is-style-bottom-right {
-	--spacing: calc( 2 * var(--wp--custom--spacing--small));
+	--spacing: var(--wp--preset--spacing--40);
 	border-radius: var(--wp--custom--img-radius, 10px);
 }
 
-.is-style-center.alignwide,
+/* .is-style-center.alignwide,
 .is-style-bottom-left.alignwide,
 .is-style-bottom-right.alignwide,
 .wp-block[data-align="wide"] > .is-style-center,
 .wp-block[data-align="wide"] > .is-style-bottom-left,
 .wp-block[data-align="wide"] > .is-style-bottom-right {
-	--spacing: calc( 2 * var(--wp--custom--spacing--medium));
-}
+	--spacing: var(--wp--preset--spacing--40);
+} */
 
 .is-style-center.alignfull,
 .is-style-bottom-left.alignfull,
@@ -302,7 +301,6 @@ header .has-accent-background-color .wp-block-search__input:-ms-input-placeholde
 .wp-block[data-align="full"] > .is-style-center,
 .wp-block[data-align="full"] > .is-style-bottom-left,
 .wp-block[data-align="full"] > .is-style-bottom-right {
-	--spacing: calc( 3.25 * var(--wp--custom--spacing--small));
 	border-radius: 0;
 }
 
