@@ -267,8 +267,8 @@ if ( ! function_exists( 'wabi_editor_styles' ) ) :
 		return "
                 .post-type-post:not(.is-iceberg) .edit-post-visual-editor__post-title-wrapper {
                         margin-top: 0 !important;
-                        padding-bottom: calc( 2 * var(--wp--custom--spacing--small));
-                        padding-top:calc( 2 * var(--wp--custom--spacing--small));
+                        padding-bottom: var(--wp--preset--spacing--30);
+                        padding-top: var(--wp--preset--spacing--30);
                         margin-bottom: 3.5rem !important;
                 }
 
@@ -282,8 +282,8 @@ if ( ! function_exists( 'wabi_editor_styles' ) ) :
 
 		.post-type-post:not(.is-iceberg) .edit-post-visual-editor__post-title-wrapper {
                         margin-top: 0 !important;
-                        padding-bottom: calc( 2 * var(--wp--custom--spacing--small));
-                        padding-top:calc( 2 * var(--wp--custom--spacing--small));
+                        padding-bottom: var(--wp--preset--spacing--30);
+                        padding-top: var(--wp--preset--spacing--30);
                         margin-bottom: 3.5rem !important;
                 }
 
