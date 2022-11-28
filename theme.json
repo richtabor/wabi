@@ -222,6 +222,17 @@
 			"dropCap": false,
 			"fontFamilies": [
 				{
+					"fontFace": [
+						{
+							"fontFamily": "Inter",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "200 900",
+							"src": [
+								"file:./assets/fonts/Inter-VariableFont_slnt,wght.ttf"
+							]
+						}
+					],
 					"fontFamily": "\"Inter\", sans-serif",
 					"name": "Inter",
 					"slug": "body"
