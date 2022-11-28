@@ -60,19 +60,7 @@ if ( ! function_exists( 'wabi_styles' ) ) :
 		// Enqueue main stylesheet.
 		wp_enqueue_style( 'wabi-style' );
 
-		// Register theme stylesheet.
-		// Necessary so that child themes can have proper editor styles.
-		wp_register_style(
-			'wabi-theme-style',
-			get_template_directory_uri() . '/assets/css/theme.css',
-			array(),
-			$version_string
-		);
-
-		// Enqueue theme stylesheet.
-		wp_enqueue_style( 'wabi-theme-style' );
-
-		// Add styles inline.
+		// Add inline styles.
 		wp_add_inline_style( 'wabi-style', wabi_accent_colors() );
 		wp_add_inline_style( 'wabi-style', wabi_get_font_face_styles() );
 
