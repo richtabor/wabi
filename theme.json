@@ -159,12 +159,6 @@
                                 "code": "#ce365c"
                         },
 			"img-radius": "10px",
-			"spacing": {
-				"small": "min(2rem, 3.5vw)",
-				"medium": "calc(2.5 * var(--wp--custom--spacing--small))",
-				"large": "min(3rem, 4vw)",
-				"outer": "max(1.5rem, 3vw)"
-			},
 			"typography": {
 				"font-size": {
 					"huge": "clamp(2.25rem, 4vw, 2.75rem)",

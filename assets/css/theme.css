@@ -201,8 +201,8 @@ header .has-accent-background-color .wp-block-search__input:-ms-input-placeholde
  */
 
 .wp-block-post-content p + .wp-block-image.alignfull {
-	margin-top: calc( 1.25 * var(--wp--custom--spacing--medium, 8rem)) !important;
-	margin-bottom: calc( 1.25 * var(--wp--custom--spacing--medium, 8rem)) !important;
+	margin-top: var(--wp--preset--spacing--60) !important;
+	margin-bottom: var(--wp--preset--spacing--60) !important;
 }
 
 /*
