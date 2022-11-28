@@ -295,7 +295,7 @@ if ( ! function_exists( 'wabi_editor_styles' ) ) :
 		.editor-styles-wrapper .block-editor-block-list__layout.is-root-container > p + h2,
 		.editor-styles-wrapper .block-editor-block-list__layout.is-root-container > p + h3,
 		.editor-styles-wrapper .block-editor-block-list__layout.is-root-container > p + h4 {
-			margin-top: var(--wp--custom--spacing--medium, 6rem) !important;
+			margin-top: var(--wp--preset--spacing--60) !important;
 		}
 
 		.is-primary-accent .editor-styles-wrapper {
