@@ -15,6 +15,15 @@ And with multiple style variants (light, dark, and dynamic color schemes), Wabi 
 
 == Changelog ==
 
+= 1.1 =
+* Add support for WordPress 6.1 spacing presets
+* Add spacing presets throughout templates and patterns
+* Add support for default and constrained layouts
+* Load font via theme.json
+* Combine style.css and theme.css stylesheets
+* Rename colors to more friendly "Accent" labels
+* Remove style guide and typography patterns
+
 = 1.0.4 =
 * Add titles to style variations
 * Add pattern markup directly to header template parts
