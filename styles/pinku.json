@@ -49,52 +49,52 @@
                                 {
                                         "slug": "primary",
                                         "color": "#5F1129",
-                                        "name": "Primary"
+                                        "name": "Accent 1"
                                 },
                                 {
                                         "slug": "secondary",
                                         "color": "#FFB2C1",
-                                        "name": "Secondary"
+                                        "name": "Accent 2"
                                 },
                                 {
                                         "slug": "tertiary",
                                         "color": "#E4BDC2",
-                                        "name": "Tertiary"
+                                        "name": "Accent 3"
                                 },
                                 {
                                         "slug": "quarternary",
                                         "color": "#43292E",
-                                        "name": "Quarternary"
+                                        "name": "Accent 4"
                                 },
                                 {
                                         "slug": "quinary",
                                         "color": "#EABE90",
-                                        "name": "Quinary"
+                                        "name": "Accent 5"
                                 },
                                 {
                                         "slug": "senary",
                                         "color": "#452B08",
-                                        "name": "Senary"
+                                        "name": "Accent 6"
                                 },
                                 {
                                         "slug": "foreground",
                                         "color": "#1b1b1f",
-                                        "name": "Foreground"
+                                        "name": "Contrast"
                                 },
 				{
 					"slug": "foreground-alt",
 					"color": "#75767c",
-					"name": "Foreground Alt"
+					"name": "Contrast 2"
 				},
                                 {
                                         "slug": "background",
                                         "color": "#ffffff",
-                                        "name": "Background"
+                                        "name": "Base"
                                 },
                                 {
                                         "slug": "background-alt",
                                         "color": "#e7e7e9",
-                                        "name": "Background Alt"
+                                        "name": "Base 2"
                                 },
                                 {
                                         "slug": "accent",
