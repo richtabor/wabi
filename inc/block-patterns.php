@@ -16,7 +16,7 @@ if ( ! function_exists( 'wabi_register_block_patterns' ) ) :
 	 */
 	function wabi_register_block_patterns() {
 		$block_pattern_categories = array(
-			'wabi' => array( 'label' => __( 'Wabi', 'wabi' ) ),
+			'wabi'   => array( 'label' => __( 'Wabi', 'wabi' ) ),
 			'footer' => array( 'label' => __( 'Footers', 'wabi' ) ),
 			'header' => array( 'label' => __( 'Headers', 'wabi' ) ),
 			'query'  => array( 'label' => __( 'Query', 'wabi' ) ),
@@ -59,8 +59,6 @@ if ( ! function_exists( 'wabi_register_block_patterns' ) ) :
 			'loop-alt',
 			'loop-alt-headline',
 			'columns-projects',
-			'style-guide-colors',
-			'style-guide-typography',
 			'subscribe-form',
 		);
 

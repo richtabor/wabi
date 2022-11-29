@@ -90,7 +90,7 @@ patterns=$(ls inc/patterns/*.php)
 templates=$(ls templates/*.html)
 styles=$(ls styles/*.json)
 parts=$(ls parts/*.html)
-assets=$(ls assets/**/*.{js,css,woff2,txt,png,jpg})
+assets=$(ls assets/**/*.{js,css,ttf,txt,png,jpg})
 assetsJs=$(ls assets/js/build/*.{js,php})
 
 zip -r ./build/wabi.zip \

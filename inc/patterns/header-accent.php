@@ -7,8 +7,8 @@ return array(
 	'categories' => array( 'wabi', 'header' ),
 	'content'    => '
 		<!-- wp:group {"align":"full", "backgroundColor":"accent","layout":{"inherit":true}} -->
-		<div class="wp-block-group alignfull has-accent-background-color has-background"><!-- wp:group {"align":"full","style":{"spacing":{"padding":{"bottom":"var(--wp--custom--spacing--small, 1.25rem)","top":"var(--wp--custom--spacing--small, 1.25rem)"}}},"layout":{"type":"flex","justifyContent":"space-between"}} -->
-		<div class="wp-block-group alignfull" style="padding-top:var(--wp--custom--spacing--small, 1.25rem);padding-bottom:var(--wp--custom--spacing--small, 1.25rem)"><!-- wp:group {"layout":{"type":"flex"}} -->
+		<div class="wp-block-group alignfull has-accent-background-color has-background"><!-- wp:group {"align":"full","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|20","top":"var:preset|spacing|20"}}},"layout":{"type":"flex","justifyContent":"space-between"}} -->
+		<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20)"><!-- wp:group {"layout":{"type":"flex"}} -->
 		<div class="wp-block-group"><!-- wp:site-logo {"width":48,"className":"is-style-rounded"} /--><!-- wp:site-title {"textColor":"accent-alt"} /-->
 
 		<!-- wp:social-links {"iconColor":"accent-alt","iconColorValue":"var(--wp--custom--color--hero-text)","size":"has-small-icon-size","className":"is-style-logos-only","layout":{"type":"flex","flexWrap":"nowrap"},"style":{"spacing":{"blockGap":"0.75rem"}}} -->

@@ -13,11 +13,11 @@
         },
         "homepage": "https://richtabor/wabi",
         "devDependencies": {
-                "@wordpress/scripts": "^20.0.2",
-                "@wordpress/stylelint-config": "^19.1.0",
-                "stylelint": "^13.13.1",
                 "@wordpress/icons": "^6.2.0",
-                "replace-in-files-cli": "^1.0.0"
+                "@wordpress/scripts": "^24.5.0",
+                "@wordpress/stylelint-config": "^19.1.0",
+                "replace-in-files-cli": "^1.0.0",
+                "stylelint": "^13.13.1"
         },
         "scripts": {
                 "start": "wp-scripts start assets/js/accent-color.js --output-path=assets/js/build",
@@ -29,6 +29,7 @@
                 "release:minor": "npm run build && git push && npm version minor --no-git-tag-version && npm run release:version && git add -u && npm run commit:version && npm run make:tag && npm run commit:tag && npm run build:zip",
                 "make:tag": "git tag ${npm_package_version}",
                 "commit:tag": "git push --tags",
-                "commit:version": "git commit -m 'Version bump to '${npm_package_version}''"
+                "commit:version": "git commit -m 'Version bump to '${npm_package_version}''",
+		"packages-update": "wp-scripts packages-update"
         }
 }
