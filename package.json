@@ -1,6 +1,6 @@
 {
         "name": "wabi",
-        "version": "1.1.0",
+        "version": "1.0.4",
         "description": "",
         "author": "richtabor",
         "license": "GPL-2.0-or-later",
@@ -30,6 +30,6 @@
                 "make:tag": "git tag ${npm_package_version}",
                 "commit:tag": "git push --tags",
                 "commit:version": "git commit -m 'Version bump to '${npm_package_version}''",
-                "packages-update": "wp-scripts packages-update"
+		"packages-update": "wp-scripts packages-update"
         }
 }
